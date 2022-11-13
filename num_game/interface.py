@@ -8,15 +8,23 @@ button_width = 50
 
 def with_pc_game():                         #Game with Pc Screen
     pc_game_screen = Tk
+    
     pc_game_screen = Toplevel(number_game)
     pc_game_screen.title("Come Play")
+    
     pc_game_screen.geometry(in_game_screen_geomerty)
+    
+    
+    pc_game_screen.resizable(False,False)
     pc_game_screen.mainloop()
 def multiplayer_game():                     #Game with Friend Screen
     multiplayer_game_screen = Tk
+    
     multiplayer_game_screen = Toplevel(number_game)
     multiplayer_game_screen.title("!Have Fun!")
+    
     multiplayer_game_screen.geometry(in_game_screen_geomerty)
+    
     multiplayer_game_screen.mainloop()
 def quiting():
     number_game.quit()
