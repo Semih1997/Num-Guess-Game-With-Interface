@@ -15,8 +15,8 @@ def with_pc_game():                         #Game with Pc Screen
 def multiplayer_game():                     #Game with Friend Screen
     multiplayer_game_screen = Tk
     multiplayer_game_screen = Toplevel(number_game)
-    multiplayer_game_screen.title(in_game_screen_geomerty)
-    multiplayer_game_screen.geometry("300x400")
+    multiplayer_game_screen.title("!Have Fun!")
+    multiplayer_game_screen.geometry(in_game_screen_geomerty)
     multiplayer_game_screen.mainloop()
 def quiting():
     number_game.quit()
